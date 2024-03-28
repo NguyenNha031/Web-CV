@@ -1,0 +1,380 @@
+.container {
+    overflow-x: hidden;
+    width: 77%;
+    float: right;
+    padding-top: 18px ;
+}
+#container_header {
+    font-size: 45px;
+    color: #1d3d71;
+    position: relative;
+    left: -64px;
+    margin-bottom: 60px;
+}
+#container_header::before {
+    content: '___';
+    position: relative;
+    color: #149ddd;
+    top: 30px;
+    right: -70px;
+    font-weight: 750;
+}
+.container_intro {
+    font-size: 20px;
+    padding-right: 10px;
+}
+.container_info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.container_info-img {
+    height: 400px;
+    width: 380px;
+    border-radius: 10px;
+    padding-right: 20px;
+}
+.container_info-pro5 h2  {
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+.container_info-pro5 i  {
+    line-height: 26px;
+    font-size: 20px;
+}
+.info_job {
+    color: #1d3d71;
+   
+}
+.col-info {
+    display: flex;
+    justify-content: c;
+}
+.col-info1 {
+    list-style: none;
+}
+.fa-chevron-right {
+    color: #8cb7d1;
+}
+.col-info1 li {
+    font-size: 20px;
+    line-height: 64px;      
+}
+.cach-phai-200x {
+    padding-right: 182px;
+}
+.col-decripsion-item {
+    font-size: 20px;
+    padding-top: 8px;
+    line-height: 25px;
+    padding-right: 10px;
+
+}
+#facts {
+    background-color: #f5f8fd;
+   margin-top: 30px;
+}  
+#facts::before {
+    display: block;
+    content: '';
+    position: absolute;
+    background-color: #f5f8fd;   
+    height: 428px;
+    width: 13px;
+    left: 326px;
+}
+
+.facts-header  {
+    font-size: 45px;
+    color: #1d3d71;
+    position: relative;
+    margin-top: 70px;  
+}
+.facts-header::after {
+    content: '___';
+    position: relative;
+    color: #149ddd;
+    right: 93px;
+    top: 30px;
+}
+.facts-decripsion {
+    font-size: 20px;
+    padding-top: 60px;
+    padding-right: 10px;
+}
+.facts-talent {
+    display: flex;
+    justify-content: center;
+    padding: 65px;
+}
+
+.facts-box {
+    display: flex;
+    justify-content: center;
+}
+.facts-talent i {
+     font-size: 60px;
+     color: #149ddd;
+     position: relative;
+    top: 5px;
+    right: 20px;
+}
+.facts-talent-info h3 {
+    font-size: 60px;
+    font-weight: 900;
+}
+.facts-talent-info {
+    width: 100px;
+}
+.facts-talent-info b p {
+    font-size: 20px;
+    line-height: 30px;
+}
+#resume {
+    height: 1000px;
+    
+}
+.resume-header {
+    font-size: 45px;
+    color: #1d3d71;
+    position: relative;
+    margin-top: 50px;  
+    right: 77px;
+}
+.resume-header::before {
+    content: '___';
+    position: relative;
+    color: #149ddd;
+    top: 30px;
+    right: -75px;
+}
+.resume-decripsipn {
+    font-size: 20px;
+    padding-top: 60px;
+}
+.resume-pro5 {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.resume_sumary {
+    line-height: 35px;
+    position: relative;
+    top: -190px;
+}
+
+
+.resume_sumary h3 {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 21px;
+}
+
+.resume_sumary h2{
+    font-weight: 900;
+    font-size: 30px;
+}
+.resume_sumary i {
+    padding-left: 20px; 
+    font-size: 20px;
+}
+.resume-pro5-list {
+    padding-left: 40px;
+    font-size: 20px;
+}
+.resume_sumary::before {
+    display: block;
+    content: '';
+    position: relative;
+    background-color: #256ccc;
+    width: 1.75px;
+    top: 230px;
+    height: 165px;
+}
+.top-236px{
+    position: relative;
+    top: -310px;
+}
+.lop-nen-trang::after {
+    content: '';
+    display: block;
+    position: relative;
+    background-color: white;
+    height: 106px;
+    width: 20px;
+    top: -2px;
+}
+.top-236px button {
+    background-color: #e4edf9;
+    border: none;
+    font-weight: 600;
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 15px;
+}
+.top-236px p {
+    padding-left: 20px;
+    font-size: 20px;
+}
+.chiem-nua-phai {
+    width: 45%;
+    position: relative;
+    top: -120px;
+}
+
+.chiem-nua-phai::before  {
+    content: '';
+    display: block;
+    position: relative;
+    background-color: #256ccc;
+    height: 120px;
+    width: 1.75px;
+    top: 300px;
+}
+.nut-present button {
+    background-color: #e4edf9;
+    border: none;
+    font-weight: 600;
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 15px;
+}
+#contact {
+    position: relative;
+    top: -210px;
+}
+.Contact-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-map {
+    margin-left: 5px;
+    border: 1px solid #ffffff;
+    width: 40%;
+    box-shadow: 1px 1px 20px 20px #f3f3f3;
+
+}
+.contact-header {
+    font-size: 45px;
+    color: #1d3d71;
+    position: relative;
+}
+
+.contact-header::after {
+    content: '___';
+    position: relative;
+    color: #149ddd;
+    top: 30px;
+    right: 230px;
+
+}
+.Contact-info  {
+    margin-top: 60px;
+}
+
+.contact-map h3 {
+    font-size: 25px;
+    
+} 
+.contact-map p {
+    font-size: 20px;
+    padding-left: 55px;
+}
+.contact-map i {
+   
+    position: relative;
+    color:#5b86a5;
+    padding: 12px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #d9eefa;
+    font-size: 18px;
+    top: 15px;
+}
+.contact-map-item {
+    padding: 20px;
+}
+.contact-img {
+    width: 85%;
+    padding: 20px 0 35px 32px;
+
+}
+.contact-sign {
+    width:56%;
+    margin-right: 10px;
+    border: none;
+    box-shadow: 1px 1px 20px 20px #f3f3f3;
+}
+.contact-sign-item {
+    display: flex;
+    justify-content: space-around;
+}
+.your-name {
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 45px;
+}
+.your-name input {
+    height: 40px;
+    width: 280px;
+    border: 1px solid #e1e1e1;
+}
+@keyframes  modalFacein  {
+    from {
+        transform: translateY(-100px);
+    }
+    
+    to {
+        transform: translateY(0);
+    }
+}
+.contract-sign-input {
+    margin-left: 20px;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.contract-sign-input input {
+    height: 40px;
+    width: 96.5%;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 30px;
+}
+.contract-sign-input p {
+    padding-bottom: 10px;
+}
+.height-255px {
+    height: 255px !important;
+}
+.contract-sign-input button {
+    height: 35px;
+    width: 124px;
+    background-color: #179cd9;
+    border: none;
+    color: white;
+    position: relative;
+    left: 240px;
+    border-radius: 5px;
+}
+.contract-sign-input button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.back-button a i {
+    margin: 10px 5px 10px 10px;
+    padding: 10px 12px 10px 11px;
+    background-color: #1297da;
+    border-radius: 50%;
+    float: right;
+    font-weight: 900;
+    color: white;
+}
+.back-button:hover {
+    opacity: 0.7;   
+}
+.top-56px {
+    position: relative;
+    top: -56px;
+}
+
+
